@@ -3,7 +3,7 @@ $(document).ready(function() {
         loop: true,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 1000,
+        // autoplayTimeout: 1000,
         navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
         center: true,
         responsive: {
@@ -20,6 +20,28 @@ $(document).ready(function() {
                 nav: true,
             }
 
+        }
+    });
+});
+
+
+$(document).ready(function() {
+    $('.slider').owlCarousel({
+        loop: true,
+        margin: 80,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
         }
     });
 });
