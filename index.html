@@ -41,21 +41,38 @@
 
 
                 <div class="col-9">
-                    <div class="row justify-content-between align-items-center   ">
-                        <div class="col input-group border rounded-3 d-flex justify-content-between pe-0">
-                            <input type="text" class="form-control border-0" placeholder="Search">
-                            <span class="input-group-text border-0"><i class="fas fa-search"></i></span>
+                    <div class="row justify-content-evenly align-items-center   ">
+                        <div class="col-1 d-flex align-items-center">
+                            <div class="box">
+                                <a href="#" role="button" class="text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"><img class="ig-fluid" width="30px" height="30px" src="Images/Illustration/india-flag.png" alt=""></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img class="ig-fluid me-2" width="15px" height="15px" src="Images/Illustration/india-flag.png" alt=""> India</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img class="ig-fluid me-2" width="15px" height="15px" src="Images/Illustration/india-flag.png" alt=""> India</a>
+                                    </li>
+
+
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col input-group d-flex justify-content-between px-0">
+                            <input type="text" class="form-control  search-bar" placeholder="Search">
+                            <span class="input-group-text border-0 search-box-btn"><i class="fas fa-search"></i></span>
                         </div>
 
 
-                        <div class="col">
+                        <div class="col-2 d-flex justify-content-center catagory">
                             <a href="#" role="button" class="text-decoration-none dropdown-toggle" data-bs-toggle="dropdown">Catagorized deals</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item text-dark" href="#">fbjh</a></li>
-                                <li><a class="dropdown-item text-dark" href="#">dfbhba</a></li>
-                                <li><a class="dropdown-item text-dark" href="#">afgvh</a></li>
-                                <li><a class="dropdown-item text-dark" href="#">sahjh</a></li>
-                                <li><a class="dropdown-item text-dark" href="#">xyz</a></li>
+                                <li><a class="dropdown-item" href="#">fbjh</a></li>
+                                <li><a class="dropdown-item" href="#">dfbhba</a></li>
+                                <li><a class="dropdown-item" href="#">afgvh</a></li>
+                                <li><a class="dropdown-item" href="#">sahjh</a></li>
+                                <li><a class="dropdown-item" href="#">xyz</a></li>
 
                             </ul>
                         </div>
@@ -66,7 +83,7 @@
                                 <div class="two-hundred">0</div>
                                 <div class="two-hundred">0</div>
                             </div>
-                            <p class="mb-0">Total Deals</p>
+                            <p class="mb-0 h6">Total Deals</p>
 
                         </div>
 
@@ -74,7 +91,7 @@
                             <img class="img-fluid shadow rounded-circle" width="50" src="Images/Illustration/Ask.png" alt="">
                         </div>
 
-                        <div class="col">
+                        <div class="col-3">
                             <a href="#" type="button" class="btn connect-btn">Login / Register</a>
                         </div>
                     </div>
@@ -97,7 +114,7 @@
                             <a href="#" role="button" class=" dropdown-toggle" data-bs-toggle="dropdown">Business
                                 Finance</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item text-dark" href="#">Clothing</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">About Us</a></li>
                                 <li><a class="dropdown-item text-dark" href="#">Wallets</a></li>
                                 <li><a class="dropdown-item text-dark" href="#">Footwear</a></li>
                                 <li><a class="dropdown-item text-dark" href="#">Watches</a></li>
@@ -359,7 +376,6 @@
                 <div class="row text-center">
                     <div class="col-4 d-flex justify-content-center align-items-center">
                         <div class="circle-pro d-flex flex-column align-items-center justify-content-center">
-                            <!-- <i class="fas fa-briefcase "></i> -->
                             <img class="img-fluid" width="75" src="Images/Illustration/bp.png" alt="">
                             <h4> Create Business Profile</h4>
                             <div><a href="#" type="button" class="view-more ">View More</a></div>
@@ -367,7 +383,6 @@
                     </div>
                     <div class="col-4 d-flex justify-content-center align-items-center">
                         <div class="circle-pro d-flex flex-column align-items-center justify-content-center">
-                            <!-- <i class="fas fa-briefcase "></i> -->
                             <img class="img-fluid" width="75" src="Images/Illustration/fp.png" alt="">
                             <h4> Create Franchise Profile</h4>
                             <div><a href="#" type="button" class="view-more ">View More</a></div>
@@ -375,7 +390,6 @@
                     </div>
                     <div class="col-4 d-flex justify-content-center align-items-center">
                         <div class="circle-pro d-flex flex-column align-items-center justify-content-center">
-                            <!-- <i class="fas fa-briefcase "></i> -->
                             <img class="img-fluid" width="75" src="Images/Illustration/mp.png" alt="">
                             <h4> Create Member Profile</h4>
                             <div><a href="#" type="button" class="view-more ">View More</a></div>
@@ -455,20 +469,22 @@
 
             <div class="container mt-5">
                 <div class="row">
-                    <div class="col">
-                        <img src="Images/Illustration/p1.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="Images/Illustration/p2.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="Images/Illustration/p3.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="Images/Illustration/p4.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="Images/Illustration/p5.png" alt="">
+                    <div class="owl-carousel owl-theme slider container-fluid">
+                        <div class="">
+                            <img src="Images/Illustration/p1.png" width="200px" height="120px" alt="">
+                        </div>
+                        <div class="">
+                            <img src="Images/Illustration/p2.png" width="200px" height="120px" alt="">
+                        </div>
+                        <div class="">
+                            <img src="Images/Illustration/p3.png" width="200px" height="120px" alt="">
+                        </div>
+                        <div class="">
+                            <img src="Images/Illustration/p4.png" width="200px" height="120px" alt="">
+                        </div>
+                        <div class="">
+                            <img src="Images/Illustration/p5.png" width="200px" height="120px" alt="">
+                        </div>
                     </div>
                 </div>
 
