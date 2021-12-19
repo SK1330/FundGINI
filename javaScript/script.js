@@ -3,7 +3,8 @@ $(document).ready(function() {
         // nav: true,
         loop: true,
         autoplay: true,
-        autoplayTimeout: 1000,
+        margin: 40,
+        autoplayTimeout: 2500,
         // navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
         center: true,
         responsive: {
@@ -49,13 +50,13 @@ $(document).ready(function() {
     });
 });
 
-// $(document).ready(function() {
-//     $('.feedback-slides').owlCarousel({
-//         loop: true,
-//         // margin: 10,
-//         nav: true,
-//         autoplay: true,
-//         autoplayTimeout: 500
+$(document).ready(function() {
+    $('.feedback-slides').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 2000
 
-//     });
-// });
+    });
+});
