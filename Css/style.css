@@ -410,3 +410,12 @@ body {
     right: 70px;
     z-index: 1000;
 }
+
+.counter {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.plus {
+    color: var(--color-one);
+}
