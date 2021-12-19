@@ -45,3 +45,14 @@ $(document).ready(function() {
         }
     });
 });
+
+// $(document).ready(function() {
+//     $('.feedback-slides').owlCarousel({
+//         loop: true,
+//         // margin: 10,
+//         nav: true,
+//         autoplay: true,
+//         autoplayTimeout: 500
+
+//     });
+// });

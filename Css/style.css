@@ -61,7 +61,7 @@ body {
 
 .middle-header {
     height: 80px;
-    background-color: var(--backgroud-color);
+    /* background-color: var(--backgroud-color); */
 }
 
 .middle-header li {
@@ -75,8 +75,8 @@ body {
 }
 
 .statistic {
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .blue-line img {
@@ -108,7 +108,7 @@ body {
 
 .create-profile {
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     background-color: var(--backgroud-color);
 }
 
@@ -119,7 +119,7 @@ body {
 
 .profile h4 {
     /* font-size: 1.5rem; */
-    font-weight: 600;
+    font-weight: 500;
     margin: 20px auto;
     margin-bottom: 30px;
 }
@@ -127,16 +127,16 @@ body {
 .view-more {
     text-decoration: none;
     color: var(--color-one);
-    font-weight: 600;
-    padding: 5px 40px;
+    font-weight: 500;
+    padding: 5px 30px;
     border: 2px solid var(--color-one);
     border-radius: 10px;
 }
 
 .circle-pro {
     background: white;
-    width: 350px;
-    height: 350px;
+    width: 290px;
+    height: 290px;
     border-radius: 50%;
     /* box-shadow: violet; */
 }
@@ -171,15 +171,27 @@ body {
     background: var(--backgroud-color);
 }
 
+.left-block {
+    border-top: 15px solid var(--backgroud-color);
+    border-right: 15px solid var(--backgroud-color);
+    border-bottom: 15px solid var(--backgroud-color);
+}
+
+.right-block {
+    border-top: 15px solid var(--backgroud-color);
+    border-bottom: 15px solid var(--backgroud-color);
+}
+
 .deal-block {
     width: 230px;
-    height: 350px;
+    height: 300px;
     background: var(--backgroud-color);
     padding: 20px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .grey-line {
@@ -200,7 +212,7 @@ body {
 
 .connect {
     margin: auto;
-    margin-top: 120px;
+    margin-top: 70px;
 }
 
 .hero-btn {
@@ -219,11 +231,11 @@ body {
 }
 
 .footer-area.bg-top .single-footer-widget {
-    margin-top: 80px
+    margin-top: 50px
 }
 
 .single-footer-widget {
-    margin-bottom: 25px
+    margin-bottom: 10px
 }
 
 .single-footer-widget .logo img {
@@ -275,7 +287,7 @@ body {
 
 .single-footer-widget .quick-links li {
     list-style-type: none;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
     color: #fff;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -299,7 +311,7 @@ body {
 .single-footer-widget .info-contact {
     position: relative;
     padding-left: 40px;
-    margin-bottom: 22px
+    margin-bottom: 10px
 }
 
 .single-footer-widget .info-contact:last-child {
