@@ -13,7 +13,7 @@ body {
 
 .top-header {
     border-bottom: 2px solid var(--color-one);
-    height: 80px;
+    height: 75px;
 }
 
 .catagory a {
@@ -60,7 +60,7 @@ body {
 }
 
 .middle-header {
-    height: 80px;
+    height: 60px;
     /* background-color: var(--backgroud-color); */
 }
 
@@ -73,6 +73,11 @@ body {
     color: var(--text-color-two);
     font-weight: 600;
 }
+
+
+/* .hero-section {
+    max-height: calc(100vh - 150px);
+} */
 
 .statistic {
     padding-top: 10px;
@@ -339,4 +344,51 @@ body {
 
 .single-footer-widget .info-contact a:hover {
     color: #e73c3e
+}
+
+
+/* flip  card */
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    /* border-radius: 30%; */
+    /* perspective: 1000px; */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: var(--color-one);
+    color: white;
+    transform: rotateY(180deg);
 }
